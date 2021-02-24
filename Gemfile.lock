@@ -22,11 +22,19 @@ GEM
     rspec-support (3.10.2)
 
 PLATFORMS
+<<<<<<< HEAD
   x86_64-darwin-20
+=======
+  ruby
+>>>>>>> 06f2717050cad6a861ca65e3b3dcd5e796c8126e
 
 DEPENDENCIES
   pry
   rspec
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.2.8
+=======
+   2.0.1
+>>>>>>> 06f2717050cad6a861ca65e3b3dcd5e796c8126e

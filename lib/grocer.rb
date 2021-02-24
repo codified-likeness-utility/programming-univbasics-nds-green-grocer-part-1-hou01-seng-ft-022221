@@ -10,6 +10,7 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
+<<<<<<< HEAD
   updated_cart = []
   counter = 0
     while counter < cart.length
@@ -29,3 +30,12 @@ def consolidate_cart(cart)
   end
   updated_cart
 end
+=======
+  cart.each_with_object({}) do |(key, value), consolidated_cart|
+    if consolidated_cart
+  end
+end
+
+
+  
+>>>>>>> 06f2717050cad6a861ca65e3b3dcd5e796c8126e
